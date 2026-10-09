@@ -1,37 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Taiping AI</title>
 
-<link href="https://fonts.googleapis.com/css2?family=00;400;500;600;700;800&display=swap
+<link href="https://fonts.googleapis.com/csser:wght@300;400;500;600;700;800&display=swap
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
     font-family:'Inter',sans-serif;
-    background:#ffffff;
+    margin:0;
+    background:#f8fafc;
     color:#111827;
-    line-height:1.6;
 }
 
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-
-nav{
+.nav{
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    padding:24px 0;
+    padding:20px 10%;
+    background:white;
+    box-shadow:0 1px 5px rgba(0,0,0,.05);
 }
 
 .logo{
@@ -43,357 +33,94 @@ nav{
     color:#2563eb;
 }
 
-.nav-btn{
+.btn{
     background:#2563eb;
     color:white;
-    padding:12px 20px;
-    border-radius:10px;
+    padding:10px 20px;
     text-decoration:none;
-    font-weight:600;
+    border-radius:8px;
 }
 
 .hero{
-    padding:100px 0;
-}
-
-.hero-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:center;
+    text-align:center;
+    padding:120px 20px;
 }
 
 .hero h1{
-    font-size:64px;
-    line-height:1.1;
-    margin-bottom:24px;
-    font-weight:800;
-}
-
-.hero p{
-    font-size:20px;
-    color:#6b7280;
-    margin-bottom:32px;
-}
-
-.hero-buttons{
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
-}
-
-.btn-primary{
-    background:#2563eb;
-    color:white;
-    padding:14px 24px;
-    border-radius:12px;
-    text-decoration:none;
-    font-weight:600;
-}
-
-.btn-secondary{
-    border:1px solid #d1d5db;
-    color:#111827;
-    padding:14px 24px;
-    border-radius:12px;
-    text-decoration:none;
-    font-weight:600;
-}
-
-.mockup{
-    background:#f9fafb;
-    border:1px solid #e5e7eb;
-    border-radius:20px;
-    padding:24px;
-    box-shadow:0 20px 40px rgba(0,0,0,.08);
-}
-
-.topbar{
-    display:flex;
-    gap:8px;
+    font-size:60px;
     margin-bottom:20px;
 }
 
-.dot{
-    width:12px;
-    height:12px;
-    border-radius:50%;
-}
-
-.red{background:#ef4444;}
-.yellow{background:#f59e0b;}
-.green{background:#10b981;}
-
-.chart{
-    background:white;
-    border-radius:15px;
-    padding:20px;
-    border:1px solid #e5e7eb;
-}
-
-.bar{
-    background:#2563eb;
-    height:16px;
-    border-radius:20px;
-    margin:18px 0;
-}
-
-.bar1{width:40%;}
-.bar2{width:80%;}
-.bar3{width:60%;}
-.bar4{width:95%;}
-
-.section{
-    padding:100px 0;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.section-title h2{
-    font-size:42px;
-    margin-bottom:12px;
-}
-
-.section-title p{
-    color:#6b7280;
+.hero p{
+    color:#64748b;
+    max-width:700px;
+    margin:auto;
 }
 
 .features{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:24px;
+    gap:20px;
+    padding:80px 10%;
 }
 
 .card{
-    border:1px solid #e5e7eb;
-    border-radius:20px;
+    background:white;
     padding:30px;
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
-}
-
-.icon{
-    font-size:32px;
-    margin-bottom:15px;
-}
-
-.card h3{
-    margin-bottom:12px;
-}
-
-.card p{
-    color:#6b7280;
-}
-
-.stats{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:20px;
-}
-
-.stat{
-    text-align:center;
-    padding:30px;
-    background:#f9fafb;
-    border-radius:18px;
-}
-
-.stat h2{
-    color:#2563eb;
-    font-size:42px;
-}
-
-.cta{
-    background:#2563eb;
-    color:white;
-    padding:80px 40px;
-    text-align:center;
-    border-radius:30px;
-}
-
-.cta h2{
-    font-size:42px;
-    margin-bottom:15px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
 footer{
-    padding:40px 0;
+    padding:40px;
     text-align:center;
-    color:#6b7280;
-}
-
-@media(max-width:900px){
-
-.hero-grid{
-    grid-template-columns:1fr;
-}
-
-.hero h1{
-    font-size:42px;
-}
-
-.stats{
-    grid-template-columns:1fr 1fr;
-}
 }
 </style>
 </head>
+
 <body>
 
-<div class="container">
-
-<nav>
-    <div class="logo">
-        Taiping<span>AI</span>
-    </div>
-
-    #contact
-        Contact
-    </a>
-</nav>
-
-<section class="hero">
-
-<div class="hero-grid">
-
-<div>
-
-<h1>
-AI-Powered Tourism Intelligence
-</h1>
-
-<p>
-Helping destinations, tourism operators and local businesses
-make better decisions through AI, analytics and smart recommendations.
-</p>
-
-<div class="hero-buttons">
-#contactGet Started</a>
-#featuresLearn More</a>
+<div class="nav">
+    <div class="logo">Taiping<span>AI</span></div>
+    <aontactContact</a>
 </div>
 
-</div>
+<div class="hero">
+    <h1>AI-Powered Tourism Intelligence</h1>
 
-<div class="mockup">
-
-<div class="topbar">
-<div class="dot red"></div>
-<div class="dot yellow"></div>
-<div class="dot green"></div>
-</div>
-
-<div class="chart">
-<h3>Analytics Dashboard</h3>
-
-<div class="bar bar1"></div>
-<div class="bar bar2"></div>
-<div class="bar bar3"></div>
-<div class="bar bar4"></div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="features">
-
-<div class="section-title">
-<h2>What We Build</h2>
-<p>AI solutions designed for business growth</p>
+    <p>
+        Helping tourism operators and local businesses make
+        smarter decisions through AI, analytics and intelligent recommendations.
+    </p>
 </div>
 
 <div class="features">
 
-<div class="card">
-<div class="icon">🔍</div>
-<h3>AI Search</h3>
-<p>Powerful semantic search to find information faster.</p>
-</div>
+    <div class="card">
+        <h3>🔍 AI Search</h3>
+        <p>Find information faster with semantic search.</p>
+    </div>
 
-<div class="card">
-<div class="icon">📊</div>
-<h3>Analytics</h3>
-<p>Turn raw data into actionable business insights.</p>
-</div>
+    <div class="card">
+        <h3>📊 Analytics</h3>
+        <p>Turn raw data into actionable insights.</p>
+    </div>
 
-<div class="card">
-<div class="icon">🤖</div>
-<h3>Recommendations</h3>
-<p>Personalized recommendations powered by AI.</p>
-</div>
+    <div class="card">
+        <h3>🤖 Recommendations</h3>
+        <p>Deliver personalized customer experiences.</p>
+    </div>
 
-<div class="card">
-<div class="icon">⚡</div>
-<h3>Automation</h3>
-<p>Reduce manual work using intelligent workflows.</p>
-</div>
+    <div class="card">
+        <h3>⚡ Automation</h3>
+        <p>Reduce manual work through AI workflows.</p>
+    </div>
 
 </div>
 
-</section>
-
-<section class="section">
-
-<div class="section-title">
-<h2>Our Mission</h2>
-<p>
-We help organizations unlock the value of data with
-artificial intelligence, automation and analytics.
-</p>
-</div>
-
-<div class="stats">
-
-<div class="stat">
-<h2>24/7</h2>
-<p>AI Services</p>
-</div>
-
-<div class="stat">
-<h2>100%</h2>
-<p>Cloud Powered</p>
-</div>
-
-<div class="stat">
-<h2>AI</h2>
-<p>First Approach</p>
-</div>
-
-<div class="stat">
-<h2>2026</h2>
-<p>Founded</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<div class="cta" id="contact">
-
-<h2>Let's Build Something Amazing</h2>
-
-<p style="margin-bottom:25px;">
-Get in touch to learn more about our AI solutions.
-</p>
-
-<a href="mailto:leanispro@gmail.com"
-style="background:white;color:#2563ebaiping AI. All Rights Reserved.
+<footer id="contact">
+    Contact: leanispro@gmail.com
 </footer>
-
-</div>
 
 </body>
 </html>
-
